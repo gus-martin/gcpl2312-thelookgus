@@ -1,1 +1,4 @@
-view: fake {}
+view: fake {
+
+  # my fake comment
+}
