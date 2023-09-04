@@ -8,6 +8,10 @@ connection: "thelook"
 #change 5
 #change 6
 #change 7
+#change 8
+#change 9
+#change 10
+#change 11
 
 # include all the views
 include: "/views/**/*.view.lkml"
