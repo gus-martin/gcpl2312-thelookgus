@@ -23,13 +23,12 @@ include: "/views/**/*.view.lkml"
 # use the Quick Help panel on the right to see documentation.
 
 
-datagroup: thelook_gus_default_datagroup2 {
+datagroup: thelook_gus_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
 }
 
-persist_with: thelook_gus_default_datagroup2
-
+persist_with: thelook_gus_default_datagroup
 
 # Explores allow you to join together different views (database tables) based on the
 # relationships between fields. By joining a view into an Explore, you make those
