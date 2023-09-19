@@ -14,6 +14,7 @@ connection: "thelook"
 #change 11
 #change 12
 #change 13
+#change 14
 
 # include all the views
 include: "/views/**/*.view.lkml"
@@ -22,12 +23,12 @@ include: "/views/**/*.view.lkml"
 # use the Quick Help panel on the right to see documentation.
 
 
-datagroup: thelook_gus_default_datagroup {
+datagroup: thelook-gus_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
 }
 
-persist_with: thelook_gus_default_datagroup
+persist_with: thelook-gus_default_datagroup
 
 
 # Explores allow you to join together different views (database tables) based on the
